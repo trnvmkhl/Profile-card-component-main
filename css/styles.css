@@ -1,0 +1,139 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  /* Цвет задника */
+  background-color: hsl(185, 75%, 39%);
+  /* Изображения на заднике */
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  /* Повторение картинок задника отрубаем */
+  background-repeat: no-repeat;
+  /* Позиционируем первую и вторую картинки задника */
+  background-position: top -500px left 0px, 900px 500px;
+  /* Делаем так, чтобы изображения шли до границ бокса */
+  background-clip: border-box;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+
+main{
+  /* Позиционируем элементы внутри бокса */
+  display: flex;
+  /* Ставим элементы по центру по оси Х */
+  align-items: center;
+  /* Ставим элементы по центру по оси У */
+  justify-content: center;
+  /* Редактируем высоту блока */
+  height: 98vh;
+}
+
+hr{
+  margin: 0 auto;
+}
+
+/* Card body properies */
+
+.card-body {
+  border-radius: 15px;
+  width: 350px;
+  background-color: white;
+  /* Настраиваем обрезку контента, если блок переполнен */
+  overflow: hidden;
+}
+
+/* Card-head secrion */
+
+.card-header {
+  background: url(../images/bg-pattern-card.svg);
+  height: 150px;
+  text-align: center;
+}
+
+.card-header img {
+  border-radius: 100%;
+  border: 5px solid white;
+  position: relative;
+  margin: 30% auto;
+}
+
+/* Card-middle section */
+
+.card-middle {
+  margin: 80px auto 20px;
+  text-align: center;
+}
+
+/* Card-bottom section */
+
+.card-bottom {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-bottom p {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.card-bottom h2 {
+  margin: 0;
+}
+
+.followers {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0;
+}
+
+.likes {
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.photos {
+  display: inline-block;
+  text-align: center;
+}
+
+.age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.city-name {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  body{
+    background-position: top -580px left -700px, 100px 400px;
+  }
+
+}
+
+@media (min-width: 376px) and (max-width: 1440px) {
+  body{
+    background-position: top -480px left -270px, 700px 430px;
+  }
+
+}
