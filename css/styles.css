@@ -8,7 +8,7 @@ body {
   /* Повторение картинок задника отрубаем */
   background-repeat: no-repeat;
   /* Позиционируем первую и вторую картинки задника */
-  background-position: top -500px left 0px, 900px 500px;
+  background-position: top -500px left 0, 900px 500px;
   /* Делаем так, чтобы изображения шли до границ бокса */
   background-clip: border-box;
   margin: 0;
@@ -31,7 +31,9 @@ main{
 }
 
 hr{
-  margin: 0 auto;
+  margin: 0 10px;
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 59%);
 }
 
 /* Card body properies */
