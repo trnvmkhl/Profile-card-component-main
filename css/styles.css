@@ -17,6 +17,7 @@ body {
 h2 {
   font-size: 18px;
   color: hsl(229, 23%, 23%);
+  margin: 0;
 }
 
 main{
@@ -84,9 +85,6 @@ hr{
   margin-bottom: 0;
 }
 
-.card-bottom h2 {
-  margin: 0;
-}
 
 .followers {
   display: inline-block;
@@ -117,6 +115,8 @@ hr{
   font-size: 1rem;
 }
 
+/* Attribution section */
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -126,12 +126,16 @@ hr{
   color: hsl(228, 45%, 44%);
 }
 
+/* viewport on mobile device */
+
 @media (max-width: 375px) {
   body{
     background-position: top -580px left -700px, 100px 400px;
   }
 
 }
+
+/* viewport on desktop device */
 
 @media (min-width: 376px) and (max-width: 1440px) {
   body{
