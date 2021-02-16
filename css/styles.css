@@ -128,7 +128,7 @@ hr{
 
 /* viewport on mobile device */
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   body{
     background-position: top -580px left -700px, 100px 400px;
   }
@@ -137,7 +137,7 @@ hr{
 
 /* viewport on desktop device */
 
-@media (min-width: 376px) and (max-width: 1440px) {
+@media (min-width: 415px) and (max-width: 1440px) {
   body{
     background-position: top -480px left -270px, 700px 430px;
   }
