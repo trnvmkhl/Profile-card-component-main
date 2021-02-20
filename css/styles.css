@@ -27,8 +27,8 @@ main{
   align-items: center;
   /* Ставим элементы по центру по оси У */
   justify-content: center;
-  /* Редактируем высоту блока */
-  height: 98vh;
+  /* Высота контейнера равна 100% вьюпорта */
+  height: 100vh;
 }
 
 hr{
@@ -83,6 +83,7 @@ hr{
   letter-spacing: 2px;
   margin-top: 8px;
   margin-bottom: 0;
+
 }
 
 
@@ -118,6 +119,9 @@ hr{
 /* Attribution section */
 
 .attribution {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   font-size: 11px;
   text-align: center;
 }
