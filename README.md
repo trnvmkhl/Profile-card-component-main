@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component
 
-My solution:
+My solution for 375px and 1440px screen sizes:
 [Click here!](https://trnvmkhl.github.io/Profile-card-component-main/)
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
